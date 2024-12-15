@@ -1,0 +1,15 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "./src/application.o",
+      "-o",
+      "application",
+      "./include/glad/glad.c"
+    ],
+    "directory": "/home/balma/dev/opengl-3d",
+    "file": "/home/balma/dev/opengl-3d/include/glad/glad.c",
+    "output": "/home/balma/dev/opengl-3d/application"
+  }
+]
