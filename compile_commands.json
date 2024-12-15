@@ -2,14 +2,16 @@
   {
     "arguments": [
       "/usr/bin/g++",
+      "-std=c++11",
+      "-I./include",
+      "-I/usr/include",
       "-c",
-      "./src/application.o",
       "-o",
-      "application",
-      "./include/glad/glad.c"
+      "src/application.o",
+      "src/application.cpp"
     ],
     "directory": "/home/balma/dev/opengl-3d",
-    "file": "/home/balma/dev/opengl-3d/include/glad/glad.c",
-    "output": "/home/balma/dev/opengl-3d/application"
+    "file": "/home/balma/dev/opengl-3d/src/application.cpp",
+    "output": "/home/balma/dev/opengl-3d/src/application.o"
   }
 ]

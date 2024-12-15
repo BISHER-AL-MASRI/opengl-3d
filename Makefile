@@ -31,7 +31,7 @@ clean:
 	rm -f $(OBJ_FILES) $(TARGET)
 
 run:
-	./$(TARGET)
+	./application
 
 .PHONY: all clean run
 
